@@ -4,6 +4,15 @@
     margin:0;
     box-sizing: border-box;
     }
+input{
+    background-color: #FFFFFF;
+    border: 2px solid #D3D3D3;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    color: brown;
+    padding: 10px;
+    margin-top: 1.5em;
+    }
 .heading{
     text-align:center;
     font-size: 3rem;
@@ -55,6 +64,6 @@ body{
     margin: 20px;
     border-radius: 10px;
     color: brown;
-    background-color: rgb(85, 221, 180);
+    background-color: rgb(202, 91, 91);
     
 }

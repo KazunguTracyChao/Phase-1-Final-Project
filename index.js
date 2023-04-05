@@ -19,7 +19,7 @@ document.getElementById("cards").innerHTML=data1;
     console.log(err);
     })
 
-document.querySelector('.grid-container').innerHTML=card
+document.querySelector("cards").innerHTML=card
     const deleteButtons = document.querySelectorAll(".btn-remove");
     console.log(deleteButtons)
     deleteButtons.forEach((btn)=> {
