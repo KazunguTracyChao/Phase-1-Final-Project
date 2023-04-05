@@ -15,3 +15,6 @@ data1+=` <div class="card">
 </div>`;
 });
 document.getElementById("cards").innerHTML=data1;
+}).catch((err)=>{
+    console.log(err);
+    })
