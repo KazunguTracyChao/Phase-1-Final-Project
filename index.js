@@ -11,3 +11,5 @@ data1+=` <div class="card">
 <img src=${values.image} alt="img" class="images">
 <p>${values.description}</p>
 <p class="category">${values.category}</p>
+<p class="price">${values.price}</p>
+</div>`;
