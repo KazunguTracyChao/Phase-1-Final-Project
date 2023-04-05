@@ -11,7 +11,9 @@ data1+=` <div class="card">
 <img src=${values.image} alt="img" class="images">
 <p>${values.description}</p>
 <p class="category">${values.category}</p>
-<p class="price">${values.price}</p>
+<p class="price">${values.price}</p>  
+<button class ="btn btn-remove">Remove</button>
+
 </div>`;
 });
 document.getElementById("cards").innerHTML=data1;
@@ -19,12 +21,3 @@ document.getElementById("cards").innerHTML=data1;
     console.log(err);
     })
 
-document.querySelector("cards").innerHTML=card
-    const deleteButtons = document.querySelectorAll(".btn-remove");
-    console.log(deleteButtons)
-    deleteButtons.forEach((btn)=> {
-     btn.addEventListener('click', (e)=>{
-       console.log (e.target)
-       e.target.parentNode.remove()
-     })    
-    })
