@@ -18,3 +18,13 @@ document.getElementById("cards").innerHTML=data1;
 }).catch((err)=>{
     console.log(err);
     })
+
+document.querySelector('.grid-container').innerHTML=card
+    const deleteButtons = document.querySelectorAll(".btn-remove");
+    console.log(deleteButtons)
+    deleteButtons.forEach((btn)=> {
+     btn.addEventListener('click', (e)=>{
+       console.log (e.target)
+       e.target.parentNode.remove()
+     })    
+    })

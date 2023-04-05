@@ -34,3 +34,27 @@
     margin: 1em;
     font-size: 1.2rem;;
     }    
+body{
+    background-color: white;
+    color: brown;
+}    
+.grid-container {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 20px;
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 550px;
+    height: 950px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    color: brown;
+    background-color: rgb(85, 221, 180);
+    
+}
