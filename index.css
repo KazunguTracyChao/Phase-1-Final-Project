@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 0, 20);
+}
 *{
     padding:0;
     margin:0;
@@ -16,7 +20,7 @@
     }
 .cards{
     width:23%;
-    box-shadow: 0 0 4px 3px paleturquoise;
+    box-shadow: 0 0 4px 3px pink;
     text-align: center;
     padding:1.5em;
     margin-bottom:2em;
