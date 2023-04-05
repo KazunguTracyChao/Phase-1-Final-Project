@@ -20,7 +20,7 @@ body {
     }
 .cards{
     width:23%;
-    box-shadow: 0 0 4px 3px pink;
+    box-shadow: 0 0 4px 3px rgb(77, 1, 7);
     text-align: center;
     padding:1.5em;
     margin-bottom:2em;
