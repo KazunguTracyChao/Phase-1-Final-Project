@@ -8,3 +8,4 @@ let data1="";
 completedata.map((values)=>{
 data1+=` <div class="card">
 <h1 class="title">${values.title}</h1>
+<img src=${values.image} alt="img" class="images">
