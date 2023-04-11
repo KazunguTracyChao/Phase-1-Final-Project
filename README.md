@@ -4,6 +4,19 @@ FETCH FAKE STORE API
 
 WEB APP NAME: UNEX INTEGRATED STORE
 
+fakeStoreApi can be used with any type of shopping project that needs products.
+
+Resources:
+There are 4 main resources need in shopping prototypes
+
+-Products
+20 products
+-Cart
+20 cart item
+-Users
+10 users
+-Login Token
+
 To Access my Web App follow this live link to view https://kazungutracychao.github.io/Phase-1-Final-Project/
 
 The Unex Integrated Store can perform the following key actions:
